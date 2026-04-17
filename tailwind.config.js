@@ -1,0 +1,76 @@
+export default {
+    darkMode: 'class',
+    content: [
+        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+        './storage/framework/views/*.php',
+        './resources/views/**/*.blade.php',
+        './resources/js/**/*.js',
+    ],
+
+    theme: {
+        extend: {
+            colors: {
+                "secondary": "#1b6d24",
+                "tertiary-container": "#b34f00",
+                "surface-container-low": "#f3f2fe",
+                "on-error": "#ffffff",
+                "outline": "#747688",
+                "on-secondary-container": "#217128",
+                "on-surface": "#1a1b23",
+                "surface-bright": "#fbf8ff",
+                "on-primary-fixed": "#000767",
+                "surface-variant": "#e2e1ed",
+                "inverse-primary": "#bdc2ff",
+                "on-surface-variant": "#434656",
+                "secondary-container": "#a0f399",
+                "on-secondary-fixed": "#002204",
+                "error": "#ba1a1a",
+                "on-primary-container": "#f0eeff",
+                "outline-variant": "#c4c5d9",
+                "tertiary-fixed-dim": "#ffb68f",
+                "on-error-container": "#93000a",
+                "surface-container-highest": "#e2e1ed",
+                "on-secondary": "#ffffff",
+                "secondary-fixed": "#a3f69c",
+                "primary-container": "#5c65bf",
+                "surface-container": "#eeedf8",
+                "surface-container-lowest": "#ffffff",
+                "surface": "#fbf8ff",
+                "secondary-fixed-dim": "#88d982",
+                "surface-tint": "#4c56af",
+                "on-tertiary-fixed-variant": "#773200",
+                "inverse-surface": "#2f3038",
+                "inverse-on-surface": "#f1f0fb",
+                "primary-fixed-dim": "#bdc2ff",
+                "tertiary": "#8d3d00",
+                "tertiary-fixed": "#ffdbca",
+                "on-tertiary-container": "#ffece3",
+                "error-container": "#ffdad6",
+                "background": "#fbf8ff",
+                "surface-container-high": "#e8e7f2",
+                "surface-dim": "#dad9e4",
+                "on-tertiary-fixed": "#331200",
+                "on-primary-fixed-variant": "#343d96",
+                "on-primary": "#ffffff",
+                "on-tertiary": "#ffffff",
+                "on-secondary-fixed-variant": "#005312",
+                "on-background": "#1a1b23",
+                "primary": "#434ca5",
+                "primary-fixed": "#e0e0ff"
+            },
+            borderRadius: {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+            fontFamily: {
+                "headline": ["Manrope", "sans-serif"],
+                "body": ["Inter", "sans-serif"],
+                "label": ["Inter", "sans-serif"]
+            }
+        },
+    },
+
+    plugins: [require('@tailwindcss/forms')],
+};
