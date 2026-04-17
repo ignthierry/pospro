@@ -2,7 +2,7 @@
     <div x-data="posSystem()" class="px-4 pb-12 animate-in">
         <!-- Hero Banner -->
         <div class="mt-4 mb-6 rounded-[2.5rem] overflow-hidden h-32 relative shadow-md group">
-            <img src="/assets/pos_banner.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="The Atelier Banner">
+            <img src="{{ asset('assets/pos_banner.png') }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="The Atelier Banner">
             <div class="absolute inset-0 bg-gradient-to-t from-[#0d0e12]/80 to-transparent flex flex-col justify-end p-6">
                 <h4 class="text-white font-manrope font-extrabold text-xl tracking-tight">Artisanal Selection</h4>
                 <p class="text-white/80 text-[8px] font-bold uppercase tracking-[0.2em]">Handcrafted Daily</p>

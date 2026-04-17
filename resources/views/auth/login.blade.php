@@ -24,7 +24,7 @@
             position: fixed;
             inset: 0;
             z-index: -1;
-            background-image: url('/assets/login_hero.png');
+            background-image: url('{{ asset('assets/login_hero.png') }}');
             background-size: cover;
             background-position: center;
             filter: blur(40px) brightness(0.7);
